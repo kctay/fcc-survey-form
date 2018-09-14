@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Form! FCC: Test Suite Template</title>
+  
+  
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>
+
+
+
+<div id="survey">
+  <h1 id="title">Survey Form</h1>
+  <div class="surveycontent">
+    <form id="survey-form">
+      <p id="description">Let us know how we can improve Pirate Flix</p>
+      <div class="questions">
+        <label id="name-label" for="name">* Name:</label>
+      </div>
+      <div class="answers">
+        <input id="name" type="text" name="name" placeholder="Enter your name" required>
+      </div>
+      <br>
+      <div class="questions">
+        <label id="email-label" for="email">* Email:</label>
+      </div>
+      <div class="answers">
+        <input id="email" type="email" name="email" placeholder="Enter your Email" required>
+      </div>
+      <br>
+      <div class="questions">
+        <label id="number-label" for="number">* Age:</label>
+      </div>
+      <div class="answers">
+        <input id="number" type="number" min="5" max="128" name="age" placeholder="Age" required>
+      </div>
+      <br>
+      <div class="questions">
+        <label>What is your current job status?</label>
+      </div>
+      <div class="answers">
+        <select id="dropdown" name="dropdown">
+          <option disabled>Select an option</option>
+          <option selected>Student</option>
+          <option>Unemployed</option>
+          <option>Employed</option>
+          <option>Retiree</option>
+          <option>Prefer not to say</option>          
+        </select>
+      </div>
+      <br>
+      <div class="questions">
+        <label>How much time a day do you spend as a couch potato?</label>
+      </div>
+      <div class="answers">
+        <ul>
+          <li><input id="30mins" type="radio" name="time" value="30mins"><label for="30mins">30 mins</label></li>
+          <li><input id="hour" type="radio" name="time" value="hour"><label for="hour">An hour</label></li>
+          <li><input id="2hour" type="radio" name="time" value="2hour"><label for="2hour">Two hours</label></li>
+          <li><input id="4hour" type="radio" name="time" value="4hour"><label for="4hour">Four hours</label></li>
+          <li><input id=">4hr" type="radio" name="time" value=">4hr"><label for=">4hr">More than four hours</label></li>
+        </ul>
+      </div>
+      <br>
+      <div class="questions">
+        <label>What do you like most about Pirate Flix?</label>
+      </div>
+      <div class="answers">
+        <select id="dropdown" name="dropdown2">
+          <option disabled selected>Select an option</option>
+          <option>Free viewing</option>
+          <option>Commercial/Ads free</option>
+          <option>Original series</option>
+          <option>Watch anytime/anywhere</option>
+          <option>Others</option>
+        </select>
+      </div>
+      <br>
+      <div class="questions">
+        <label>Which genre would you like Pirate Flix to beef up in future? (You may choose more than one):</label>
+      </div>
+      <div class="answers">
+        <ul>
+          <li><input type="checkbox" name="genre" value="documentary">Documentary</li>
+          <li><input type="checkbox" name="genre" value="history">History</li>
+          <li><input type="checkbox" name="genre" value="drama">Drama</li>
+          <li><input type="checkbox" name="genre" value="reality">Reality</li>
+          <li><input type="checkbox" name="genre" value="movies">Movies</li>
+          <li><input type="checkbox" name="genre" value="anime">Anime</li>
+        </ul>
+      </div>
+      <br>
+      <div class="questions">
+        <label>Further Comments or Suggestions?</label>
+      </div>
+      <div class="answers">
+        <textarea rows="4" cols="28" placeholder="Enter your comment here..."></textarea>
+      </div>
+      <button id="submit" type:"submit">Submit</button>
+    </form>
+  </div>
+</div>
+  <script src='https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
